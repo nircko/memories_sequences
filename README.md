@@ -7,7 +7,7 @@
 4. [Usage](#usage)
 
 
-![](https://github.com/nircko/memories_sequences/blob/a5188c0a81877ea75e69678e77ac8f3c6374e7b7/data/simulation.gif)\
+![](https://github.com/nircko/memories_sequences/blob/a5188c0a81877ea75e69678e77ac8f3c6374e7b7/data/simulation.gif)
 
 ## Introduction
 
@@ -15,6 +15,9 @@ This repo simulates a basic AI concept of learning temporal sequences, focusing 
 
 
 ## Biological Eveidence
+
+![](https://github.com/nircko/memories_sequences/blob/c7a939506d378bc2c0506c2ca5ea6481756ee532/data/Tritonia%20Diomedea%20escape.gif)
+
 
 This AI problem of memory sequences has been actually observed by biologists and physiologists in a marine sea slug species known as Tritonia diomedea. This organism is has simple yet effective neural network. Despite possessing a relatively primitive nervous system compared to more complex animals, Tritonia diomedea demonstrates sophisticated escape behaviors when threatened.
 

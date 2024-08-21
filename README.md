@@ -7,6 +7,7 @@
 4. [Usage](#usage)
 
 
+![](https://github.com/nircko/memories_sequences/blob/a5188c0a81877ea75e69678e77ac8f3c6374e7b7/data/simulation.gif)\
 
 ## Introduction
 

@@ -49,8 +49,8 @@ title('The Overlap of the \xi^{\nu} Pattern', 'FontName', 'Impact', 'FontSize', 
 %% Loading and Processing Images
 xi = zeros(50 * 50, 5);
 figure_load = figure('Name', 'Counting Numbers', 'NumberTitle', 'off');
-% create a path of png files contating digits images
-srcFiles = dir('');
+% create a path of files contating digits images
+srcFiles = dir('./data/*jpg');
 
 for i = 1:length(srcFiles)
     filename = fullfile(srcFiles(i).folder, srcFiles(i).name);
@@ -105,7 +105,7 @@ end
 Preview = figure('Name', 'Live View', 'NumberTitle', 'off', ...
     'Position', [432 162 708 536]);
 
-vidObj = VideoWriter('simulation3.avi');
+vidObj = VideoWriter('simulation.avi');
 vidObj.Quality = 100;
 vidObj.FrameRate = 2;
 open(vidObj);
@@ -122,4 +122,3 @@ for t = 1:duration
 end
 
 close(vidObj);
-winopen('simulation3.avi');
